@@ -1,5 +1,5 @@
 
-import useProductsPage from '../../hooks/useProductsPage';
+import useProductsPage from '../../hooks/useProduct';
 
 export default function ProductPage() {
   const { product } = useProductsPage();
