@@ -18,6 +18,8 @@ import ProductPage from "./pages/ProductPage/ProductPage";
 import Users from "./pages/Users/Users";
 import UserPage from "./pages/UserPage/UserPage";
 import CatFacts from "./pages/CatFacts/CatFacts";
+import Parent from "./pages/Parent/Parent";
+import SigninPage from "./pages/SigninPage/SigninPage";
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
             <Route path="/users" element={<Users />} />
             <Route path="/users/:id" element={<UserPage />} />
             <Route path="/cat-facts" element={<CatFacts />} />
+            <Route path="/parent" element={<Parent />} />
+            <Route path="/signin" element={<SigninPage />} />
           </Route>
         </Routes>
       </HashRouter>
