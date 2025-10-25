@@ -45,6 +45,9 @@ export default function Header() {
         <NavLink to="/signin" className={getClass}>
           Sign In
         </NavLink>
+        <NavLink to="/categories" className={getClass}>
+          Categories
+        </NavLink>
       </nav>
     </header>
   );

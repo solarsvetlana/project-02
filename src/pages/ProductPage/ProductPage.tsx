@@ -8,12 +8,12 @@ export default function useProduct() {
 
   async function fetchProductById(id: string) {
     const res = await fetch(`https://api.escuelajs.co/api/v1/products/${id}`);
-    const data = await res.json();
+    const data: Product = await res.json();
     setProduct(data);
   }
 
   useEffect(() => {
-    fetchProductById(id || "");
-  }, [id]);
+      fetchProductById(id || "");
+    }, [id]);
   return { product };
 }

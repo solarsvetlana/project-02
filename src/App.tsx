@@ -20,6 +20,7 @@ import UserPage from "./pages/UserPage/UserPage";
 import CatFacts from "./pages/CatFacts/CatFacts";
 import Parent from "./pages/Parent/Parent";
 import SigninPage from "./pages/SigninPage/SigninPage";
+import Categories from "./pages/Categories/Categories";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
             <Route path="/cat-facts" element={<CatFacts />} />
             <Route path="/parent" element={<Parent />} />
             <Route path="/signin" element={<SigninPage />} />
+            <Route path="/categories" element={<Categories />} />
           </Route>
         </Routes>
       </HashRouter>
